@@ -45,6 +45,17 @@ Usé break cuando encontré el primer pago comercio, porque después de encontra
 Con este ejercicio entendí que continue no rompe el ciclo completo, solo salta una vuelta. En cambio, break sí detiene el ciclo por completo.
 
 
+## Ejercicio 5: Varias cuentas a la vez
+
+En el ejercicio 5 practiqué bucles anidados. Un bucle anidado es un ciclo dentro de otro ciclo.
+
+En este caso, la app no tenía un solo usuario, sino varios usuarios. Cada usuario tenía su propio nombre y su propia lista de movimientos.
+
+Usé un primer for para recorrer la lista de usuarios. Por cada usuario, creé una variable llamada totalUsuario en 0 para acumular solo los movimientos de esa persona.
+
+Dentro de ese primer ciclo usé otro for para recorrer la lista de movimientos del usuario actual. Ese ciclo interno se completa primero antes de que el ciclo externo pase al siguiente usuario.
+
+Con este ejercicio entendí que el ciclo de afuera controla los usuarios y el ciclo de adentro controla los movimientos de cada usuario.
 
 
 
