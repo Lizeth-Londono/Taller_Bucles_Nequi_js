@@ -32,6 +32,21 @@ la opción que escribe el usuario se guarda en una variable llamada opcion que L
 El menú se sigue repitiendo mientras la opción sea diferente de "4", porque la opción 4 representa salir de la app.
 
 
+## Ejercicio 4: Buscar y filtrar movimientos
+
+En el ejercicio 4 practiqué break y continue recorriendo una lista de movimientos de una app tipo Nequi.
+
+La app necesitaba encontrar el primer movimiento de tipo pago comercio y avisar en qué posición estaba y también debía ignorar los movimientos con valor 0, porque representan movimientos vacíos o que no interesan para la búsqueda.
+
+Usé continue cuando el movimiento tenía valor 0, porque en ese caso no quería revisar más esa vuelta del ciclo y necesitaba pasar directamente al siguiente movimiento.
+
+Usé break cuando encontré el primer pago comercio, porque después de encontrarlo ya no tenía sentido seguir revisando el resto de la lista.
+
+Con este ejercicio entendí que continue no rompe el ciclo completo, solo salta una vuelta. En cambio, break sí detiene el ciclo por completo.
+
+
+
+
 
 
 
