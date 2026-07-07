@@ -58,8 +58,20 @@ Dentro de ese primer ciclo usé otro for para recorrer la lista de movimientos d
 Con este ejercicio entendí que el ciclo de afuera controla los usuarios y el ciclo de adentro controla los movimientos de cada usuario.
 
 
+## Cierre del taller
 
+En este taller practiqué diferentes tipos de bucles según la situación.
 
+Usé for: cuando sabía que debía recorrer una lista completa, como en los movimientos del mes.  
+Usé while: cuando la repetición dependía de una condición, como validar el PIN hasta que fuera correcto.  
+Usé do...while: cuando necesitaba que algo se mostrara al menos una vez, como el menú de la app.  
+Usé Continue: para saltar movimientos que no me servían, como los movimientos en 0.  
+Usé break: para detener el ciclo cuando ya había encontrado lo que buscaba.  
+Finalmente, usé bucles anidados: para recorrer varias cuentas, donde el ciclo externo recorría los usuarios y el ciclo interno recorría los movimientos de cada usuario.
+
+También entendí que totalUsuario debe reiniciarse dentro del bucle de cada usuario y si lo creara una sola vez antes del bucle principal, los totales se mezclarían y ya no tendría el resultado correcto para cada persona.
+
+Además, recordé que también existen métodos de arrays como forEach(), que sirven para recorrer listas y en este taller usé principalmente for, while y do...while para practicar la lógica de los bucles desde la base.
 
 
 ## Nota sobre GitHub y node_modules
